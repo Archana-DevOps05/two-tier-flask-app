@@ -15,13 +15,13 @@ Before you begin, make sure you have the following installed:
 1. Clone this repository (if you haven't already):
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://https://github.com/Archana-DevOps05/two-tier-flask-app
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-repo-name
+   cd two-tier-flask-app
    ```
 
 3. Create a `.env` file in the project directory to store your MySQL environment variables:
@@ -115,16 +115,13 @@ docker run -d \
     flaskapp:latest
 
 ```
+Now you can access your flask-app in the browser at:  
+**http://localhost:5000** or  if you are using AWS EC2 instance you can use their own public ip
 
-## Notes
+# Result:
+![staticwebsite](image.png)
 
-- Make sure to replace placeholders (e.g., `your_username`, `your_password`, `your_database`) with your actual MySQL configuration.
 
-- This is a basic setup for demonstration purposes. In a production environment, you should follow best practices for security and performance.
 
-- Be cautious when executing SQL queries directly. Validate and sanitize user inputs to prevent vulnerabilities like SQL injection.
 
-- If you encounter issues, check Docker logs and error messages for troubleshooting.
-
-```
 
