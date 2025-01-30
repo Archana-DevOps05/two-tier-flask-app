@@ -119,7 +119,7 @@ Now you can access your flask-app in the browser at:
 **http://localhost:5000** or  if you are using AWS EC2 instance you can use their own public ip
 
 # Result:
-![staticwebsite](image.png)
+![staticwebsite](image1.png)
 
 
 
